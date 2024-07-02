@@ -16,6 +16,9 @@ body {
 }
 
 
+li {
+    list-style: none;
+}
 
 /*header*/
 
@@ -48,7 +51,7 @@ img {
 .container {
     max-width: 1000px;
     margin: 40px auto 0px;
-    height: 600px;
+    height: 1000px;
     background-color: white;
     font-size: 16px;
     border-radius: 10px;
@@ -84,4 +87,75 @@ img {
     background-color: white;
     color: grey;
     border: 1px solid grey
+}
+
+/*list*/
+
+summary {
+    font-weight: 500;
+    font-size: 25px;
+}
+
+
+li .circle::before {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    margin-right: 10px;
+    border-radius: 50%;
+    line-height: 15px;
+    font-size: 10px;
+    text-align: center;
+}
+
+li .circle.checked::before {
+    content: '\2713';
+    border: 1px solid #2cc6ab;
+    color: #2cc6ab;
+}
+
+li .circle.delete::before {
+    content: '\2573';
+    border: 1px solid #ff0000;
+    color: #ff0000;
+}
+
+.category {
+
+    border-radius: 20px;
+    padding: 5px 10px;
+    display: inline-block;
+    margin: 20px 0;
+    color: white;
+    font-size: 12px;
+
+}
+
+
+/*category colors*/
+
+#editorial {
+    background-color: #45ABEA;
+}
+
+#q1-goals {
+    background-color: #9C72E4;
+}
+
+#recruiting {
+    background-color: #64C0A9;
+}
+
+#mobile {
+    background-color: #F29E33;
+}
+
+#website {
+    background-color: #D863A1;
+
+}
+
+#sales {
+    background-color: #B0C926;
+
 }
