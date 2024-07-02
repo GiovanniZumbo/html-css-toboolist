@@ -5,13 +5,20 @@
     padding: 0;
     box-sizing: border-box;
 
+    /*Generics*/
+
+    background-color: grey;
+
+
     /*header*/
 
     .title {
-        height: 60px;
-        margin: 10px 10px;
-        line-height: 60px;
+        background-color: white;
+        height: 80px;
+        border: 10px;
+        line-height: 80px;
         vertical-align: middle;
+
 
         /*text*/
 
@@ -24,4 +31,6 @@
 
         img {
             vertical-align: middle;
+            margin: 0 10px;
+            background-color: white;
         }
