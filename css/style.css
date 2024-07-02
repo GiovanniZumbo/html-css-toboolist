@@ -1,0 +1,27 @@
+/* css reset */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    /*header*/
+
+    .title {
+        height: 60px;
+        margin: 10px 10px;
+        line-height: 60px;
+        vertical-align: middle;
+
+        /*text*/
+
+
+        font-family: "DM Serif Display", serif;
+        font-weight: 800;
+        font-style: normal;
+        font-size: 40px;
+
+
+        img {
+            vertical-align: middle;
+        }
