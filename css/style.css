@@ -4,33 +4,84 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
 
-    /*Generics*/
+/*Generics*/
 
-    background-color: grey;
+body {
+    background-color: rgb(167, 160, 160);
+    font-family: "DM Serif Display", serif;
+    font-style: normal;
 
-
-    /*header*/
-
-    .title {
-        background-color: white;
-        height: 80px;
-        border: 10px;
-        line-height: 80px;
-        vertical-align: middle;
+}
 
 
-        /*text*/
+
+/*header*/
+
+.title {
+    background-color: white;
+    height: 80px;
+    border: 10px;
+    line-height: 80px;
+    vertical-align: middle;
 
 
-        font-family: "DM Serif Display", serif;
-        font-weight: 800;
-        font-style: normal;
-        font-size: 40px;
+    /*text*/
+
+    font-weight: 800;
+    font-size: 40px;
+}
 
 
-        img {
-            vertical-align: middle;
-            margin: 0 10px;
-            background-color: white;
-        }
+img {
+    vertical-align: middle;
+    margin: 0 10px 0 20px;
+    background-color: white;
+}
+
+
+/*Utilities*/
+
+
+
+.container {
+    max-width: 1000px;
+    margin: 40px auto 0px;
+    height: 600px;
+    background-color: white;
+    font-size: 16px;
+    border-radius: 10px;
+}
+
+.button {
+
+    background-color: white;
+    height: 80px;
+    border-bottom: 2px solid rgb(167, 160, 160);
+    border-radius: 10px 10px 0 0;
+}
+
+
+.task-button,
+.section-button {
+
+
+    border-radius: 5px;
+    padding: 5px 10px;
+    display: inline-block;
+    margin: 20px 0;
+}
+
+#task-btn-colors {
+    background-color: #1E90FF;
+    color: white;
+    margin-left: 40px;
+    margin-right: 5px;
+}
+
+#section-btn-colors {
+    background-color: white;
+    color: grey;
+    border: 1px solid grey
+}
