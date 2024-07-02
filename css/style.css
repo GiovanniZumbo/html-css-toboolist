@@ -18,6 +18,12 @@ body {
 
 li {
     list-style: none;
+    height: 40px;
+}
+
+/* ul {
+    line-height: 3px;
+    display: inline;
 }
 
 /*header*/
@@ -46,15 +52,18 @@ img {
 
 /*Utilities*/
 
-
+.list {
+    padding: 40px 0 5px 30px;
+}
 
 .container {
     max-width: 1000px;
     margin: 40px auto 0px;
-    height: 1000px;
+    min-height: 700px;
     background-color: white;
     font-size: 16px;
     border-radius: 10px;
+
 }
 
 .button {
@@ -94,6 +103,8 @@ img {
 summary {
     font-weight: 500;
     font-size: 25px;
+    margin-top: 25px;
+
 }
 
 
@@ -119,6 +130,7 @@ li .circle.delete::before {
     border: 1px solid #ff0000;
     color: #ff0000;
 }
+
 
 .category {
 
@@ -152,10 +164,8 @@ li .circle.delete::before {
 
 #website {
     background-color: #D863A1;
-
 }
 
 #sales {
     background-color: #B0C926;
-
 }
